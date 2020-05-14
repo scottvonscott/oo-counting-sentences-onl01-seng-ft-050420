@@ -19,7 +19,7 @@ class String
   def count_sentences
      squeezed = []
      squeezed << self.squeeze(".!?")
-     self.split(/.?!/)
+     squeezed.split(/.?!/)
     binding.pry
        self.length
   end
