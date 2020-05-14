@@ -17,9 +17,8 @@ class String
   end
 
   def count_sentences
-    sentence_count = []
-    sentence_count << self.squeeze(".").split(/.?!/)
+     self.squeeze(".").split(/.?!/)
     # binding.pry
-    sentence_count.length
+    self.length
   end
 end
