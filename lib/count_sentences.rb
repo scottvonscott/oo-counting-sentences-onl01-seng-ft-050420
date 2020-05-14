@@ -20,8 +20,8 @@ class String
      squeezed = ""
      array = []
      squeezed << self.squeeze(".!?")
-     squeezed.split(/[.!?]/)
-     squeezed.length()
+     array = squeezed.split(/[.!?]/)
+     array.length()
        binding.pry
   end
 end
