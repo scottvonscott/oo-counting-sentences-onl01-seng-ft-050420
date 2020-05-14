@@ -18,10 +18,10 @@ class String
 
   def count_sentences
      squeezed = ""
-     self.squeeze(".!?")
-     squeezed <<
+     squeezed << self.squeeze(".!?")
+     binding.pry
      squeezed.split(/.?!/)
-    binding.pry
+
        squeezed.length
   end
 end
