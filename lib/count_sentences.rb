@@ -17,9 +17,9 @@ class String
   end
 
   def count_sentences
-    word_count = []
-    word_count << self.split(".")
+    sentence_count = []
+    sentence_count << self.split(".")
     binding.pry
-    word_count.length
+    sentence_count.length
   end
 end
