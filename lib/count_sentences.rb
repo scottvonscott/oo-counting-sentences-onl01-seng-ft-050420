@@ -21,7 +21,6 @@ class String
      array = []
      squeezed << self.squeeze(".!?")
      array << squeezed.split(/[.!?]/)
-     binding.pry
        squeezed.length
   end
 end
