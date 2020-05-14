@@ -21,6 +21,6 @@ class String
      squeezed << self.squeeze(".!?")
      squeezed.split(/.?!/)
     binding.pry
-       self.length
+       squeezed.length
   end
 end
