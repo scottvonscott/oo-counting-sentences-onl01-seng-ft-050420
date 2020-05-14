@@ -18,7 +18,7 @@ class String
 
   def count_sentences
     sentence_count = []
-    sentence_count << self.split(/[\s,.,!,?]/)
+    sentence_count << self.split(/[.,!,?]/)
     binding.pry
     sentence_count.length
   end
